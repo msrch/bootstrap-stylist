@@ -1,0 +1,24 @@
+section.bs-cell.bs-cell-big.pad-top
+    header.bs-title Accordion
+    #accordion2.accordion
+        .accordion-group
+            .accordion-heading
+                a.accordion-toggle(data-toggle='collapse', data-parent='#accordion2', href='#collapseOne')
+                    | Collapsible Group Item #1
+            #collapseOne.accordion-body.in.collapse(style='height: auto;')
+                .accordion-inner
+                    | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae turpis justo. Phasellus mauris dolor, molestie vitae nulla in, sodales faucibus neque.
+        .accordion-group
+            .accordion-heading
+                a.accordion-toggle(data-toggle='collapse', data-parent='#accordion2', href='#collapseTwo')
+                    | Collapsible Group Item #2
+            #collapseTwo.accordion-body.collapse(style='height: 0px;')
+                .accordion-inner
+                    | Aenean fringilla leo id sem viverra pretium. Quisque faucibus nisi accumsan augue euismod mattis. Donec fringilla tincidunt odio ac faucibus. Proin id blandit augue.
+        .accordion-group
+            .accordion-heading
+                a.accordion-toggle(data-toggle='collapse', data-parent='#accordion2', href='#collapseThree')
+                    | Collapsible Group Item #3
+            #collapseThree.accordion-body.collapse(style='height: 0px;')
+                .accordion-inner
+                    | Vel hendrerit metus. Ut gravida tempor tristique. Vivamus pharetra, nisl id sagittis fringilla, magna lorem tincidunt elit, id mattis leo lacus in lectus lorem quis.

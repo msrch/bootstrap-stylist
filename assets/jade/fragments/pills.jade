@@ -1,0 +1,13 @@
+section.bs-cell.bs-cell-big.pad-top
+    header.bs-title Pills &ndash; Nav
+    ul.nav.nav-pills
+        li.active: a(href='#') Home
+        li: a(href='#') Blog
+        li.disabled: a(href='#') Messages
+        li.dropdown
+            a(href='#', data-toggle='dropdown').dropdown-toggle
+                | Profile
+                b.caret
+            ul.dropdown-menu
+                li: a(href='#') Edit
+        li: a(href='#') Log out

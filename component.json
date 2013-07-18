@@ -1,0 +1,30 @@
+{
+    "name": "tbs-stylist-bower",
+    "version": "0.1.0",
+    "dependencies": {
+        "bootstrap": "2.3.2",
+        "jquery": "~1.9.1",
+        "html5shiv": "~3.6.2",
+        "isotope": "1.5.25",
+        "holderjs": "*"
+    },
+    "exportsOverride": {
+        "bootstrap": {
+            "js": "docs/assets/js/bootstrap.*",
+            "less": "less/*.less",
+            "imgs": "img/*.png"
+        },
+        "jquery": {
+            "js": "jquery.min.js"
+        },
+        "html5shiv": {
+            "js": "dist/html5shiv.js"
+        },
+        "isotope": {
+            "js": "jquery.isotope.min.js"
+        },
+        "holderjs": {
+            "js": "holder.js"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+section.bs-cell.pad-top
+    header.bs-title Tooltips
+    p
+        | Lorem ipsum dolor sit amet consectetur 
+        a(href='#', data-toggle='tooltip', title='Tooltip example').bs-tooptips vitae
+        |  turpis justo.
+
+    div(style='position: relative; display: block; width: 100%;')
+        .tooltip.fade.top.in(style='top: 0; display: inline-block; position: relative;')
+            .tooltip-arrow
+            .tooltip-inner Top tooltip
+        .tooltip.fade.right.in(style='top: 0; display: inline-block; position: relative;')
+            .tooltip-arrow
+            .tooltip-inner Right tooltip
+        .tooltip.fade.bottom.in(style='top: 0; display: inline-block; position: relative;')
+            .tooltip-arrow
+            .tooltip-inner Bottom tooltip
+        .tooltip.fade.left.in(style='top: 0; display: inline-block; position: relative;')
+            .tooltip-arrow
+            .tooltip-inner Left tooltip

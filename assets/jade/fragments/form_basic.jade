@@ -1,0 +1,17 @@
+section.bs-cell.bs-cell-big
+    header.bs-title Form &ndash; Basic
+    form
+        fieldset
+            legend Fieldset Legend
+            label(for='appendedInputButtons') Label name
+            .input-append
+                input#appendedInputButtons(type='text').span3
+                button(type='button').btn Search
+                button(type='button').btn Options
+            span.help-block Example block-level help text here.
+            label.checkbox
+                input(type='checkbox')
+                |  Check me out
+            .form-actions
+                button(type='submit').btn.btn-primary Save changes
+                button(type='button').btn Cancel

@@ -1,0 +1,17 @@
+section.bs-cell.bs-cell-big.pad-top
+    header.bs-title Thumbnails
+    .row-fluid
+        ul.thumbnails
+            - for(var i = 0; i < 3; i += 1)
+                li.span4
+                    a(href='#').thumbnail
+                        img(data-src='holder.js/130x80', style='width: 130px; height: 80px;', alt='Thumb')
+    .row-fluid
+        ul.thumbnails
+            - for(var i = 0; i < 3; i += 1)
+                li.span4
+                    .thumbnail
+                        img(data-src='holder.js/130x80', style='width: 130px; height: 80px;', alt='Thumb')
+                        .caption
+                            h6(style='margin: 0;') Caption #{i + 1}
+                            p(style='line-height: 1.2; margin-bottom: 0;').muted: small Lorem ipsum dolor sit amet.

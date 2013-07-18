@@ -1,0 +1,50 @@
+section.bs-cell.bs-cell-big.pad-top
+    header.bs-title Form &ndash; Extended
+    .btn-toolbar
+        .btn-group
+            button(type='button').btn.btn-primary Action
+            button(type='button', data-toggle='dropdown').btn.btn-primary.dropdown-toggle
+                span.caret
+            ul.dropdown-menu
+                li: a(href='#') Action
+                li: a(href='#') Another action
+                li.disabled: a(href='#') Something disabled
+                li.divider
+                li.dropdown-submenu
+                    a(href='#') Sub menu
+                    ul.dropdown-menu
+                        li: a(href='#') Sub Action
+                        li: a(href='#') Another sub
+        .btn-group(data-toggle='buttons-checkbox')
+            button(type='button').btn.active Left
+            button(type='button').btn Middle
+            button(type='button').btn Right
+        .btn-group(data-toggle='buttons-radio')
+            button(type='button').btn.btn-success.active On
+            button(type='button').btn.btn-danger Off
+    .input-append
+        input#appendedDropdownButton(type='text').span3
+        .btn-group
+            button(data-toggle='dropdown').btn.dropdown-toggle
+                | Action 
+                span.caret
+            ul.dropdown-menu
+                li: a(href='#') Action
+                li: a(href='#') Another action
+    br
+    .input-prepend
+        span.add-on: i.icon.icon-user
+        input#prependedInput(type='text', placeholder='Username').span3
+    br
+    .input-append
+        input#appendedInput(type='text').span3
+        span.add-on .00
+    br
+    .input-prepend.input-append
+        span.add-on $
+        input#appendedPrependedInput(type='text').span3
+        span.add-on .00
+    form.form-search
+        .input-append
+            input(type='text').span3.search-query
+            button(type='submit').btn Search

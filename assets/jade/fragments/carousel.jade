@@ -1,0 +1,25 @@
+section.bs-cell.bs-cell-big.pad-top
+    header.bs-title Carousel
+    #myCarousel.carousel.slide(data-interval='4000', data-pause='hover')
+        ol.carousel-indicators
+            li.active(data-target='#myCarousel', data-slide-to='0')
+            li(data-target='#myCarousel', data-slide-to='1')
+            li(data-target='#myCarousel', data-slide-to='2')
+        .carousel-inner
+            .active.item
+                img(data-src='holder.js/446x250/#0056cc:#fff/text:First', alt='Placeholder')
+                .carousel-caption
+                    h4 First label
+                    p: small Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            .item
+                img(data-src='holder.js/446x250/#0088cc:#fff/text:Second', alt='Placeholder')
+                .carousel-caption
+                    h4 Second label
+                    p: small Phasellus mauris dolor, molestie vitae nulla sodales neque.
+            .item
+                img(data-src='holder.js/446x250/#00c5cc:#fff/text:Third', alt='Placeholder')
+                .carousel-caption
+                    h4 Third label
+                    p: small Mauris iaculis lorem semper quis facilisis tincidunt.
+        a.carousel-control.left(href='#myCarousel', data-slide='prev') ‹
+        a.carousel-control.right(href='#myCarousel', data-slide='next') ›
