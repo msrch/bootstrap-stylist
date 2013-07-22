@@ -29,3 +29,6 @@ nbproject
 .idea
 node_modules
 npm-debug.log
+assets
+components
+public
