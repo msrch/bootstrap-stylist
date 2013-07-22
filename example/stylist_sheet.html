@@ -29,7 +29,7 @@
                 clear: both;
             }
             .hide-text {
-                font: NaN a;
+                font: 0/0 a;
                 color: transparent;
                 text-shadow: none;
                 background-color: transparent;
@@ -5604,6 +5604,12 @@
                 .bs-grid .bs-cell.bs-cell-full {
                     margin: 0 0 20px 20px;
                     width: 724px;
+                }
+                .bs-grid .bs-cell .thumbnails li {
+                    margin-left: 11px;
+                }
+                .bs-grid .bs-cell .thumbnails li:first-child {
+                    margin-left: 0;
                 }
             }
             .isotope-item {
